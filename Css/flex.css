@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    text-align: center;
+}
+/*
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    list-style: none;
+    background-color: #00BFFF ;
+    margin: 0;
+}
+*/
+.flex >* {
+    flex: 1 100%;
+    padding: 10px;
+}
+.menu {
+    display: flex;
+    justify-content: end;
+    flex-flow: row wrap;
+    margin: 0;
+    background-color: #00BFFF;
+    list-style: none;
+    
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #0c6e8fa1;
+}
+.article {
+    background-color: red;
+    text-align: left;
+    margin: 10px;
+    flex: 3 0px; 
+    order: 2;
+    
+
+}
+.aside {
+    flex: 1 0 0; 
+}
+.aside1 {
+    background-color: brown;
+    margin: 10px;
+    order: 1;
+    
+}
+.aside2 {
+    background-color: coral;
+    margin: 10px;
+    order: 3
+}
+.footer {
+    background-color: crimson;
+    margin: 10px;
+    order: 4;
+}
+/*
+@media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; } na ordem flex-grow-> relacionado ao espaço restante no container envolve altura e largura(não aceita numeros negativos) flex-shrink-> trata-se de um fator de redução flexivel de um item flexivel ele acionado os outros itens irão encolher para caber e flex-basis-> ele começa com um valor x mas se precisar ele pode reduzir seu tamanho inicial
+    .article    { flex: 3 0px; }
+    .aside1 { order: 1; } 
+    .article    { order: 2; }
+    .aside2 { order: 3; }
+    .footer  { order: 4; }
+    
+  }
+  */
+  

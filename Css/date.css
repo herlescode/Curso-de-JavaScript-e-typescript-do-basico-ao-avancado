@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    background-color: aqua;
+    height: 100vh;/*preenchimento do container*/
+    width: 100vw;/*preenchimento do container*/
+}
+.conteudo {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    height: 200px;
+    width: 800px;
+    left: 50%; /*centralizando*/
+    top: 50%; /*centralizando*/
+    transform: translate(-50%, -50%);/*centralizar no eixo*/
+    background: red
+    
+}
+

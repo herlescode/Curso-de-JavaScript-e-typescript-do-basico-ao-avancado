@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 30px;
+}
+/*
+header {
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+}
+h1 {
+    background-color: lightblue;
+    position: absolute; /*tendo como a base para se referenciar o header que é relative
+    top: 20px;
+    left: 30px;
+}
+//relativo e absoluto
+.box {
+    background-color: papayawhip;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.centro {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -20px;
+}
+
+.notice {
+    background-color: #FFF;
+    width: 380px;
+    height: 100px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(202, 38, 38, 0.904);
+    z-index: 1;
+}
+.notice p {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(53, 51, 51);
+}
+.notice {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.overlay {
+    position: fixed;
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+*/
+header,
+footer,
+article,
+aside,
+.border,
+.border1,
+.border2 {
+    border: 1px solid #000;
+    height: 40px;
+    width: 400px;
+}
+/*  trataremos sobre o Grid
+.d {
+    background-color: burlywood;   
+}
+.a {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: 100px;
+   gap: 2px;
+}
+.primeiro,
+.segundo,
+.terceiro, 
+.quarto,
+.quinto,
+.sexto {
+    border: 1px solid #000;
+}
+
+.terceiro {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.quarto {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.sexto {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    z-index: 3;
+}
+.primeiro {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.body {
+    display: grid;
+    /*grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: 160px repeat(2, 1fr) 160px;
+    grid-template-columns: repeat(2, 1fr 2fr 3fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px; /criamos com tamanho padrão 
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto );/o tamanho minimo é 100px e o maximo ajusta automaticamente 
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    gap: 10px dar espaçamento entre as linhas e colunas 
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.b {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+Nessa parte iremos trabalhar algumas propriedades do Flexbox
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.border {
+    flex: 1 1 auto;
+}
+.border1 {
+    flex: 1;
+}
+.border2 {
+    flex: 4 1 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column; vc consegue dizer se é coluna ou linhas
+    align-items: flex-start;
+    height: 10px; usamos para rows
+    width: 200px; usamos para columns
+}
+.flex>*:first-child {
+    align-self: stretch;
+}
+.flex .border1 {
+    align-self: center;
+}
+*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between ;
+    justify-content:right;
+}
+.border1 {
+    margin-left: auto;    
+}
+
