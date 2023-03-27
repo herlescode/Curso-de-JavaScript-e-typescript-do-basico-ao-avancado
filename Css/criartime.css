@@ -24,3 +24,6 @@ body {
     padding: 2px;
     margin-right: 10px;
 }
+.pausado {
+    color: red;
+}
