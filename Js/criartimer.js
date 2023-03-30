@@ -17,9 +17,9 @@ function criarData(segundo){
 
 //console.log(criaTempo(10));
 
-// const iniciar = document.querySelector('.iniciar');
-// const pausar = document.querySelector('.pausar');
-// const zerar = document.querySelector('.zerar');
+const iniciar = document.querySelector('.iniciar');
+const pausar = document.querySelector('.pausar');
+const zerar = document.querySelector('.zerar');
 const relogio = document.querySelector('.relogio')
 
 let segundos = 0;
